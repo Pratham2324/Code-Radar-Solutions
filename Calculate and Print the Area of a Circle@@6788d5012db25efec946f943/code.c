@@ -2,9 +2,9 @@
 
 int main() {
     float radius;
-    float n;
-    scanf("%f %f",&radius,&n);
-    n = saqure(radius);
+    float area;
+    scanf("%f %f",&radius,&area);
+    area = square(radius);
     printf("Area: %.2f",3.14*n);
     return 0;
 }
