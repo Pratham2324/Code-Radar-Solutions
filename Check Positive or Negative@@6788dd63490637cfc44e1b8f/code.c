@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    int num1,num2;
-    scanf("%d %d",&num1,&num2);
+    int num1;
+    scanf("%d ",&num1);
     if( num1 > 0){
     printf("Positive");
     }
-    else if(num == 0){
+    else if(num1 == 0){
         printf("Zero");
     }
     else{
