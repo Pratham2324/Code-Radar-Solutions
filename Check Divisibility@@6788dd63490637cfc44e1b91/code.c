@@ -7,7 +7,7 @@ int main() {
     printf("Disible");
     }
     else{
-        priintf("Not Divisible")
+        priintf("Not Divisible");
     }
     return 0;
 }
