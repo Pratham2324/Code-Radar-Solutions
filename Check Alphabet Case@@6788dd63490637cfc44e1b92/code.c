@@ -1,5 +1,5 @@
 #include<stdio.h>
-int mmain(){
+int main(){
     char alphabet;
     scanf("%c",&alphabet);
     if(alphabet >= 'A' && alphabet <= 'Z'){
