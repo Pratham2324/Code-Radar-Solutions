@@ -8,5 +8,5 @@ int mmain(){
     else{
         printf("Lowercase");
     }
-    
+    return 0;
 }
