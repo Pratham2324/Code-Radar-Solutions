@@ -7,7 +7,7 @@ int main() {
     switch(month){
         case 1: printf("31");
                 break;
-        case 2: printf("28 or 29");
+        case 2: printf("28");
                 break;
         case 3: printf("31");
                 break;
@@ -29,7 +29,7 @@ int main() {
                 break;
         case 12: printf("31");
                 break;
-       default: printf("Enter a valid number");
+       default: printf("Invalid month");
     }
     return 0;
 }
