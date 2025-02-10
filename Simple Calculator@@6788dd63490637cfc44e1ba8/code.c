@@ -5,17 +5,17 @@ int main() {
     char sign;
     scanf("%d %d",&num1,&num2);
     scanf("%c",&sign);
-if(sign = '+'){
-    printf("%d",num1+num2);
-}
-else if(sign = '-'){
-    printf("%d",num1-num2);
-}
-else if(sign = '*'){
-    printf("%d",num1*num2);
-}
-else if(sign = '/'){
-    printf("%d",num1/num2);
-}
+    case(sign){
+        case '+':
+       printf("%d",num1+num2);
+       case '-':
+       printf("%d",num1-num2);
+       case '*':
+       printf("%d",num1*num2);
+       case '/':
+       printf("%d",num1/num2);
+    default:
+    printf("Error")
+    }
     return 0;
 }
