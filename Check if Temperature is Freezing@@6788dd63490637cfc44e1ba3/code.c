@@ -3,7 +3,7 @@
 int main() {
     int temprature;
     scanf("%d",&temprature);
-    if(temprature >= 0){
+    if(temprature > 0){
         printf("Above Freezing");
     }
     else{
