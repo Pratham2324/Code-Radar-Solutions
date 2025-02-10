@@ -10,10 +10,10 @@ int main() {
     }
     }
     if(count ==2){
-       printf("Not Prime");
+       printf(" Prime");
     }
     else{
-        printf("Prime");
+        printf("Not Prime");
     }
     return 0;
 }
