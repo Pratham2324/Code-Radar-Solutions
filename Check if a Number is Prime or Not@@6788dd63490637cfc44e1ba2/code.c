@@ -15,6 +15,5 @@ int main() {
     else{
         printf("Prime");
     }
-    printf("%s", welcome());
     return 0;
 }
