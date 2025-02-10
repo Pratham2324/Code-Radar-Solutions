@@ -15,7 +15,7 @@ int main() {
        case '/':
        printf("%d",num1/num2);
     default:
-    printf("Error")
+    printf("Error");
     }
     return 0;
 }
