@@ -11,10 +11,10 @@ int main() {
     else if(sign == '-'){
        printf("%d",num1-num2);
     }
-    else if{
+    else if(sign == '*'){
        printf("%d",num1*num2);
     }
-    else if{
+    else if(sign == '/'){
        printf("%d",num1/num2);
     }
     else{
