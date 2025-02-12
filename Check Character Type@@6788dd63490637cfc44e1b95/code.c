@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<ctype.h>
+// #include<ctype.h>
 int main(){
     char alphabet;
     if(alphabet == 'A' || alphabet == 'E' || alphabet == 'I' || alphabet == 'O' ||alphabet == 'U' || alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u'){
