@@ -17,8 +17,8 @@ int main() {
     else if(sign == '/'){
        printf("%d",num1/num2);
     }
-    else{
-    printf("Error");
-    }
+   //  else{
+   //  printf("Error");
+   //  }
     return 0;
 }
