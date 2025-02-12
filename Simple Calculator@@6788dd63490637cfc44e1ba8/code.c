@@ -14,7 +14,7 @@ int main() {
     else if{
        printf("%d",num1*num2);
     }
-    else if
+    else if{
        printf("%d",num1/num2);
     }
     else{
