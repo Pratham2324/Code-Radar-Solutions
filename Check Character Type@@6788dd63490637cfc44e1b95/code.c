@@ -1,15 +1,16 @@
 #include<stdio.h>
-// #include<ctype.h>
+// #include<type.h>
 int main(){
     char alphabet;
+    scanf("%c",&alphabet)
     if(alphabet == 'A' || alphabet == 'E' || alphabet == 'I' || alphabet == 'O' ||alphabet == 'U' || alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u'){
        printf("Vowel");
     }
-    else if{
+    else{
         printf("Consonant");
     }
     
-    else if(alphabet >= 0 || alphabet <= 9){
+    if(alphabet >= 0 || alphabet <= 9){
         printf("Digit");
     }
     else{
