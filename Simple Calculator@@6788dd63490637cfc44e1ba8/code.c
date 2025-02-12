@@ -18,7 +18,7 @@ int main() {
        printf("%d",num1/num2);
     }
     else{
-    printf("Error");
+    printf("error");
     }
     return 0;
 }
