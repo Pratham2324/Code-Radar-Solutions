@@ -2,9 +2,9 @@
 
 int main() {
     int num1,num2;
-    char sign;
+    int sign;
     scanf("%d %d",&num1,&num2);
-    scanf("%c",&sign);
+    scanf("%d",&sign);
     if(sign == '+'){
        printf("%d",num1+num2);
     }
@@ -17,8 +17,8 @@ int main() {
     else if(sign == '/'){
        printf("%d",num1/num2);
     }
-   //  else{
-   //  printf("Error");
-   //  }
+    else{
+    printf("Error");
+    }
     return 0;
 }
