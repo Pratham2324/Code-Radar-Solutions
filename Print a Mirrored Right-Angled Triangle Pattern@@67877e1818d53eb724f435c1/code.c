@@ -1,14 +1,19 @@
-#include<stdio.h>
-int main(){
-    int rows;
-    scanf("%d",&rows);
-    for(int i =1;i<=rows;i++){
-        
-        for(int j =i;j <rows ;j++)
-            printf("* ");
-        
+#include <stdio.h>
 
- printf("\n");
-}
+int main()
+{
+    int i, j, rows;
+    scanf("%d", &rows);
+
+    for(i=1; i<=rows; i++){
+        for(j=i; j<rows; j++){
+            printf(" ");
+        }
+        for(j=1; j<=i; j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    
     return 0;
 }
