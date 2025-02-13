@@ -2,30 +2,26 @@
 
 int main()
 {
-    int sidea, sideb, sidec; // Declare variables for the sides of the triangle.
-    /*
-     * Reads all sides of a triangle
-     */
-    printf("Input three sides of triangle: ");  // Prompt user for input.
+    int sidea, sideb, sidec; 
+    printf("Input three sides of triangle: ");  
     scanf("%d %d %d", &sidea, &sideb, &sidec);  // Read and store the sides of the triangle.
     // Check if the sides form a valid triangle
     if ((sidea + sideb > sidec) && (sidea + sidec > sideb) && (sideb + sidec > sidea)) {
         // If the sides form a valid triangle, continue with the classification
         if(sidea==sideb && sideb==sidec) // Check if all sides are equal.
         {
-            printf("This is an equilateral triangle.\n");  // Print message for equilateral triangle.
+            printf("Equilateral");  
         }
-        else if(sidea==sideb || sidea==sidec || sideb==sidec) // Check if two sides are equal.
+        else if(sidea==sideb || sidea==sidec || sideb==sidec) 
         {
-            printf("This is an isosceles triangle.\n");  // Print message for isosceles triangle.
+            printf("Isosceles");
         }
-        else // If no sides are equal.
+        else 
         {
-            printf("This is a scalene triangle.\n");  // Print message for scalene triangle.
+            printf("Scalene");  
         }
     } else {
-        // If the sides do not form a valid triangle
-        printf("Input sides do not form a valid triangle.\n");
+        printf("error");
     }
     return 0;
 } 
