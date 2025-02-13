@@ -4,21 +4,21 @@ int main() {
     int num1,num2;
     int sign;
     scanf("%d %d",&num1,&num2);
-    scanf("%d",&sign);
-    if(sign == '+'){
-       printf("%d",num1+num2);
-    }
-    else if(sign == '-'){
-       printf("%d",num1-num2);
-    }
-    else if(sign == '*'){
-       printf("%d",num1*num2);
-    }
-    else if(sign == '/'){
-       printf("%d",num1/num2);
-    }
-    else{
-    printf("error");
+    scanf("%c",&sign);
+    switch(sign){
+        case '+':
+        printf("%d",a+b);
+        break;
+        case '-':
+        printf("%d",a-b);
+        break;
+        case '*':
+        printf("%d",a*b);
+        break;
+        case '/':
+        printf("%d",a/b);
+        break;
+        default:printf("error");
     }
     return 0;
 }
