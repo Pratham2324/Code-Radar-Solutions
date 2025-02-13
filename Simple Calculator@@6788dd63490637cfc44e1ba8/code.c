@@ -16,7 +16,7 @@ int main() {
         printf("%d",num1*num2);
         break;
         case'/':
-        if(c!= 0){
+        if(num2!= 0){
             printf("%d",num1/num2);
         }
         else{
