@@ -2,24 +2,24 @@
 
 int main() {
     int num1,num2;
-    int sign;
+    char sign;
     scanf("%d %d",&num1,&num2);
     scanf("%c",&sign);
     switch(sign){
-        case '+':
+        case'+':
         printf("%d",a+b);
         break;
-        case '-':
+        case'-':
         printf("%d",a-b);
         break;
-        case '*':
+        case'*':
         printf("%d",a*b);
         break;
-        case '/':
+        case'/':
         printf("%d",a/b);
         break;
         default:
-            printf("error");
+        printf("error");
             break;
     }
     return 0;
