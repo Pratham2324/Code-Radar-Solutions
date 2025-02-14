@@ -4,10 +4,13 @@ int main(){
     int sum =0;
     scanf("%d",&num);
     if(num==0){
-        return 0;
+        return
     }
     for(int i = 1;i<=num;i++){
-    sum = num * (num + 1) / 2;
-        printf("%d",sum);
+        sum += i;
+        
     }
+    printf("%d",sum);
+    
+
 }
