@@ -4,7 +4,7 @@ int main() {
     char operator;
     int num1, num2;
 
-    scanf("%c", &operator);
+    scanf("%c\n", &operator);
 
     scanf("%d %d", &num1, &num2);
 
