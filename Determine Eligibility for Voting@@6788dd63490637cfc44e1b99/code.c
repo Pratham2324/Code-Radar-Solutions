@@ -1,5 +1,5 @@
 #include<stdio.h>
-iint main(){
+int main(){
     int age;
     scanf("%d",&age);
     if(age>=18){
