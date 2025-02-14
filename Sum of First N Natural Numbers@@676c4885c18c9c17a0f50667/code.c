@@ -7,7 +7,7 @@ int main(){
         return 0;
     }
     for(int i = 1;i<=num;i++){
-    sum = n * (n + 1) / 2;
+    sum += i
         printf("%d",sum);
     }
 }
